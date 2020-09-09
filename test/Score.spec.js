@@ -30,11 +30,6 @@ describe('Calculating different bowling scores', () => {
         const result = calculate([[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,10] ])
         expect(result).toEqual([30,60,90,120,150,180,210,240,270,300])
       })
-            
-      test('Calculate score  perfect game ', () => {
-        const result = calculate([[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[10,0],[9,1],[3,3]])
-        expect(result).toEqual([30,60,90,120,150,180,209,229,242,248])
-      })
   })
 
 

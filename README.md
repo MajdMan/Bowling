@@ -1,8 +1,8 @@
 # bowling
 Required Node and npm 
 
-Click "New game" to get new points from the Get api. the Applicaiton wil run the calculte automatically. 
-Click "Verify" to see if the calculation is correct. A label and text will show if the calculation is correct.  
+Click "New game" to get new points from the Get api. The applicaiton wil run the calculte automatically. 
+Click "Verify" to  validate the calculation against the Post Api. A label and text will show if the calculation is correct.  
  
 
 ## Build Setup
